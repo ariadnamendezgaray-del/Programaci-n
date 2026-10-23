@@ -9,7 +9,7 @@ carret = [
 
 for preu_total in carret :
     preu_productes = preu_total["quantitat"] * preu_total["preu_unitari"]
-    suma_total = preu_productes +  preu_productes
+    suma_total = suma_total +  preu_productes
     
 
 print ("El total de la compra es de:"suma_total)
